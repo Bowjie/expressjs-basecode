@@ -1,0 +1,27 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:index": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bowjie/expressjs-basecode.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Aira Astilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bowjie/expressjs-basecode/issues"
+  },
+  "homepage": "https://github.com/Bowjie/expressjs-basecode#readme"
+}
