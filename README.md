@@ -1,1 +1,3 @@
-# expressjs-basecode
+# express.js Basecode
+
+- MySQL Database
