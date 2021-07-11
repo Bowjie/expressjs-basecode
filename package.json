@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {},
   "scripts": {
