@@ -1,6 +1,6 @@
 const Bank = require('../models/bank.model');
 const { ObjectEmptyChecker } = require('../extras/error-handler');
-const { Error } = require('../config/message.config');
+const { Error } = require('../config/shared.config');
 
 exports.add = (req, res) => {
   ObjectEmptyChecker(req.body).then((promise) => {
@@ -21,11 +21,14 @@ exports.add = (req, res) => {
           message: Error.message,
         });
       } else {
-        res.send(data);
+        res.send();
       }
     });
   });
 };
-
-exports.pu = (req, res) => {};
-exports.get = (req, res) => {};
+exports.update = (req, res) => {};
+exports.delete = (req, res) => {};
+exports.get = (req, res) => {
+  console.log(req.params);
+  console.log(req.query);
+};
