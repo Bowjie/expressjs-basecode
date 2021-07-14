@@ -6,7 +6,7 @@ const Bank = function (bank) {
   this.branch = bank.branch;
 };
 
-Bank.create = (newBank, result) => {
+Bank.add = (newBank, result) => {
   sql.query('INSERT INTO bank SET ?', newBank, (err, res) => {
     if (err) {
       console.log('error: ', err);
